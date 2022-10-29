@@ -7,7 +7,7 @@ Practical work 4_1. In the discipline of Cross-platform Application Development 
 
 pol_min = list_information_max_num[4] * self.tableWidget.rowCount() + list_information_max_num[5] + 1
 pol_max = list_information_max_num[1] * self.tableWidget.rowCount() + list_information_max_num[2] + 1
-
+```
 if (pol_max > pol_min):
     while row < self.tableWidget.rowCount():
         while col < self.tableWidget.columnCount():
@@ -21,6 +21,6 @@ if (pol_max > pol_min):
         col = 0
 else:
     self.label_error.setText('Условия не выполнены!')
-
+```
 
 Teacher: https://github.com/proffix4
