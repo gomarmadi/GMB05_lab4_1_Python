@@ -21,6 +21,6 @@ if (pol_max > pol_min):
         col = 0
 else:
     self.label_error.setText('Условия не выполнены!')
-```
+
 
 Teacher: https://github.com/proffix4
